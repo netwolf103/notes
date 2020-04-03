@@ -26,7 +26,7 @@
 
 - [利用rpcbind+NFS分离WEB服务器静态资源](利用rpcbind+NFS分离WEB服务器静态资源.md)
 
-- [网站图片优化之 —— WebP格式](技术/网站图片优化——WebP格式.md)
+- [网站图片优化之 —— WebP格式](网站图片优化——WebP格式.md)
 
 - [inotifywait图片监控 & 转webp格式](inotifywait图片监控转webp格式.md)
 
