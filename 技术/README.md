@@ -1,7 +1,25 @@
 # 目录
 
 ### 手册
-- [收集](Manual.md)
+- [Markdown手册](https://help.github.com/cn/github/writing-on-github)
+
+- [EMOJI CHEAT SHEET](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+- [中文手册](https://www.php.net/manual/zh/)
+
+- [Symfony](https://symfony.com/doc/current/index.html#gsc.tab=0)
+
+- [PHP-MSF开发手册](https://pinguo.gitbooks.io/php-msf-docs/content/)
+
+- [Docker — 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
+
+- [MongoDB 教程](https://www.runoob.com/mongodb/mongodb-tutorial.html)
+
+- [Elasticsearch 权威指南](https://es.xiaoleilu.com/)
+
+- [Google AMP](https://amp.dev/zh_cn/)
+
+- [Google Analytics](https://developers.google.com/analytics)
 
 ### 笔记
 - [LAMP - CentOS7+Apache2.4+MySQL8+PHP7.3环境搭建](CentOS7-Apache2.4-MySQL8-PHP7.3.md)
