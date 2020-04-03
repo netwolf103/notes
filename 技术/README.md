@@ -11,3 +11,5 @@
 5. [Centos7 Elasticsearch + Kibana + Nginx + Filebeat 搭建日志监控系统](https://github.com/netwolf103/notes/blob/master/技术/Centos7+Elasticsearch+Kibana+Nginx+Filebeat搭建日志监控系统.md)
 
 6. [用6种不同的简单实用方法监测网站是否宕机](https://github.com/netwolf103/notes/blob/master/技术/用6种不同的简单实用方法监测网站是否宕机.md)
+
+7. [CentOS7 安装 RabbitMQ](https://github.com/netwolf103/notes/blob/master/技术/CentOS7安装RabbitMQ.md)
