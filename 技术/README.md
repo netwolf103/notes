@@ -1,10 +1,9 @@
 # 目录
 
-### 参考手册
-- 手册列表
-   - [收集](Manual.md)
+### 手册
+- [收集](Manual.md)
 
-#### 技术笔记
+#### 笔记
 - [LAMP - CentOS7+Apache2.4+MySQL8+PHP7.3环境搭建](CentOS7-Apache2.4-MySQL8-PHP7.3.md)
 
 - [利用rpcbind+NFS分离WEB服务器静态资源](利用rpcbind+NFS分离WEB服务器静态资源.md)
