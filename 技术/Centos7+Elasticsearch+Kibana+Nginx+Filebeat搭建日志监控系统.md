@@ -96,7 +96,7 @@
 	systemctl enable kibana
 	systemctl start kibana
 
-### 安装Nginx
+### 以Nginx作为反向代理
 	yum -y install nginx httpd-tools
 
 	# 配置nginx
@@ -127,6 +127,33 @@
 	# 开启防火墙80端口
 	firewall-cmd --add-port=80/tcp --permanent
 	firewall-cmd --reload
+
+### 以Apache作为反向代理
+	yum -y install httpd
+
+	# 配置httpd
+	htpasswd -c /etc/httpd/conf/htpasswd.users kibanaadmin
+
+	vi /etc/httpd/conf.d/kibana.conf
+	<VirtualHost *:80>
+	    ServerName kibana.example.com
+	    ErrorLog "logs/kibana.example.com-error_log"
+	    CustomLog "logs/kibana.example.com-access_log" combined
+
+	    <Location />
+	        AuthType Basic
+	        AuthName "Restricted Content"
+	        AuthUserFile /etc/httpd/conf/htpasswd.users
+	        Require valid-user
+	    </Location>
+
+	    <IfModule mod_proxy.c>
+		ProxyRequests On
+
+		ProxyPass / http://localhost:9200/
+		ProxyPassReverse / http://localhost:9200/
+	    </IfModule>
+	</VirtualHost>
 
 ### 安装Filebeat
 	yum -y install filebeat
