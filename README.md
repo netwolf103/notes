@@ -39,3 +39,5 @@
 		- [用6种不同的简单实用方法监测网站是否宕机](技术/用6种不同的简单实用方法监测网站是否宕机.md)
 
 		- [CentOS7 安装 RabbitMQ](技术/CentOS7安装RabbitMQ.md)
+
+		- [Google搜索技巧](Google搜索技巧.md)
