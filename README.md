@@ -40,4 +40,4 @@
 
 		- [CentOS7 安装 RabbitMQ](技术/CentOS7安装RabbitMQ.md)
 
-		- [Google搜索技巧](Google搜索技巧.md)
+		- [Google搜索技巧](技术/Google搜索技巧.md)
