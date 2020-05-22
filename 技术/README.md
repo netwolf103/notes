@@ -37,3 +37,5 @@
 - [CentOS7 安装 RabbitMQ](CentOS7安装RabbitMQ.md)
 
 - [Google搜索技巧](Google搜索技巧.md)
+
+- [视频工具](视频工具.md)
